@@ -4,12 +4,35 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	</head>
-	<body>
+	<body class="instashop-background">
 		<div class="main-card">
-			<h1> Hello world! What's your name? </h1> <br>
-			<input type="text" class="form-control"> <br>
-			<button class="btn btn-primary"> Enviar </button>
-			<h3> Hello! My name is </h3>
+			<img src="https://i.imgur.com/Kwq5ALI.png" class="insta-logo" align="middle">
+			<p class="h1"> Hello world! What's your name? </p> <br>
+			<input id="formsNameField" type="text" class="form-control"> <br>
+			<button class="btn btn-lg light"> Enviar </button>
+			<h3 id="myName"></h3>
 		</div>
 	</body>
 </html>
+
+<style>
+	.main-card{
+		width: 45%;
+		margin: auto;
+		margin-top: 1%;
+		text-align: center;
+	}
+	.insta-logo{
+		width: 50%;
+		border-radius: 50%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.instashop-background{
+		background-color: #FBE6D3;
+	}
+	.light{
+		background-color: white;
+		color: #222222;
+		box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+	}
+</style>
